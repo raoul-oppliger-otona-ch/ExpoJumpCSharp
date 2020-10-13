@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9232E2AA-A4D2-46C4-9DA6-5E9F321BC711}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="code\arbre.cs" />
+    <Compile Include="code\generationPages.cs" />
+    <Compile Include="code\manipFileFolder.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="assets\css\main.scss" />
+    <None Include="assets\css\styles.scss" />
+    <None Include="assets\img\logo\audio-guide.pdn" />
+    <None Include="assets\img\logo\otona-white.pdn" />
+    <None Include="assets\js\fonts\slick.eot" />
+    <None Include="assets\js\fonts\slick.ttf" />
+    <None Include="assets\js\fonts\slick.woff" />
+    <None Include="assets\txt\01-Lady.md" />
+    <None Include="_includes\xxxoverview.md" />
+    <None Include="_sass\_base.scss" />
+    <None Include="_sass\_fonts.scss" />
+    <None Include="_sass\_layout.scss" />
+    <None Include="_sass\_syntax-highlighting.scss" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="assets\img\icons\image-w240.jpg" />
+    <Content Include="assets\img\icons\qrCode.png" />
+    <Content Include="assets\img\logo\logo_mah.png" />
+    <Content Include="assets\img\logo\MAMCO-32x32.png" />
+    <Content Include="assets\img\parcours\cetaces.jpg" />
+    <Content Include="assets\img\parcours\felin.jpg" />
+    <Content Include="posters\Bailly\_assets\cetaces.jpg" />
+    <Content Include="posters\Chibiabos\_assets\cetaces.jpg" />
+    <Content Include="posters\Cuenod\_assets\cetaces.jpg" />
+    <Content Include="posters\Demierre\_assets\cetaces.jpg" />
+    <Content Include="posters\Deshusses\_assets\cetaces.jpg" />
+    <Content Include="posters\JohnMuir\_assets\cetaces.jpg" />
+    <Content Include="posters\MacConstruct\_assets\cetaces.jpg" />
+    <Content Include="posters\Muller\_assets\cetaces.jpg" />
+    <Content Include="posters\Ogi\contenu_1.txt" />
+    <Content Include="posters\Ogi\contenu_2.txt" />
+    <Content Include="posters\Ogi\contenu_3.txt" />
+    <Content Include="posters\Ogi\_assets\cetaces.jpg" />
+    <Content Include="posters\Piazza\contenu_1.txt" />
+    <Content Include="posters\Piazza\contenu_2.txt" />
+    <Content Include="posters\Piazza\contenu_3.txt" />
+    <Content Include="posters\Piazza\_assets\cetaces.jpg" />
+    <Content Include="posters\Salib\contenu_1.txt" />
+    <Content Include="posters\Salib\contenu_2.txt" />
+    <Content Include="posters\Salib\contenu_3.txt" />
+    <Content Include="posters\Muller\contenu_1.txt" />
+    <Content Include="posters\Muller\contenu_2.txt" />
+    <Content Include="posters\Muller\contenu_3.txt" />
+    <Content Include="posters\Bailly\contenu_1.txt" />
+    <Content Include="posters\Bailly\contenu_2.txt" />
+    <Content Include="posters\Bailly\contenu_3.txt" />
+    <Content Include="posters\Cuenod\contenu_1.txt" />
+    <Content Include="posters\Cuenod\contenu_2.txt" />
+    <Content Include="posters\Cuenod\contenu_3.txt" />
+    <Content Include="posters\Salib\_assets\cetaces.jpg" />
+    <Content Include="posters\Villeret\contenu_1.txt" />
+    <Content Include="posters\Villeret\contenu_2.txt" />
+    <Content Include="posters\Villeret\contenu_3.txt" />
+    <Content Include="posters\Deshusses\contenu_1.txt" />
+    <Content Include="posters\Deshusses\contenu_2.txt" />
+    <Content Include="posters\Deshusses\contenu_3.txt" />
+    <Content Include="posters\Demierre\contenu_1.txt" />
+    <Content Include="posters\Demierre\contenu_2.txt" />
+    <Content Include="posters\Demierre\contenu_3.txt" />
+    <Content Include="posters\MacConstruct\contenu_1.txt" />
+    <Content Include="posters\MacConstruct\contenu_2.txt" />
+    <Content Include="posters\MacConstruct\contenu_3.txt" />
+    <Content Include="posters\JohnMuir\contenu_1.txt" />
+    <Content Include="posters\JohnMuir\contenu_2.txt" />
+    <Content Include="posters\JohnMuir\contenu_3.txt" />
+    <Content Include="posters\Chibiabos\contenu_2.txt" />
+    <Content Include="posters\Chibiabos\contenu_1.txt" />
+    <Content Include="posters\Chibiabos\contenu_3.txt" />
+    <Content Include="posters\Villeret\_assets\cetaces.jpg" />
+    <Content Include="qrCode.html" />
+    <Content Include="src\constants.js" />
+    <Content Include="src\debug.js" />
+    <Content Include="src\decoder.js" />
+    <Content Include="src\geom.js" />
+    <Content Include="src\nearestsymbol.js" />
+    <Content Include="src\patternfinder.js" />
+    <Content Include="src\patternverifier.js" />
+    <Content Include="src\perspective.js" />
+    <Content Include="src\qrreader.js" />
+    <Content Include="src\reedsolomon.js" />
+    <Content Include="src\ui.js" />
+    <Content Include="styles.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_includes\blocPosterVideo.html" />
+    <Content Include="_includes\blocVignettesSuperieures.html" />
+    <Content Include="_includes\stylePoster.txt" />
+    <Content Include="_includes\zoneListe.html" />
+    <Content Include="_includes\zoneIdentite.html" />
+    <Content Include="_includes\nextPoster.html" />
+    <Content Include="_includes\blocAccueil.html" />
+    <Content Include="_includes\blocFooter.html" />
+    <Content Include="_includes\blocHead.html" />
+    <Content Include="_includes\blocHeader.html" />
+    <Content Include="_includes\blocPosterPhotoNumero.html" />
+    <Content Include="_includes\blocPosterPhoto.html" />
+    <Content Include="_includes\blocPosterTexte.html" />
+    <Content Include="_masters\HTMLPage1.html" />
+    <Content Include="_masters\introduction.html" />
+    <Content Include="_masters\LesParcours.html" />
+    <Content Include="Analyse\posters_ListeLiens.html" />
+    <Content Include="_includes\parcoursListeNoms.html" />
+    <Content Include="_includes\parcoursListeLiens.html" />
+    <Content Include="_includes\previousPoster.html" />
+    <Content Include="_masters\UnParcours.html" />
+    <Content Include="_masters\qrCode.html" />
+    <Content Include="_masters\unPosterIsole.html" />
+    <Content Include="_masters\unPoster.html" />
+    <Content Include="assets\css\css3button.css" />
+    <Content Include="assets\css\reset.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\favicon\browserconfig.xml" />
+    <Content Include="assets\favicon\favicon-114.png" />
+    <Content Include="assets\favicon\favicon-120.png" />
+    <Content Include="assets\favicon\favicon-144.png" />
+    <Content Include="assets\favicon\favicon-150.png" />
+    <Content Include="assets\favicon\favicon-152.png" />
+    <Content Include="assets\favicon\favicon-16.png" />
+    <Content Include="assets\favicon\favicon-160.png" />
+    <Content Include="assets\favicon\favicon-180.png" />
+    <Content Include="assets\favicon\favicon-192.png" />
+    <Content Include="assets\favicon\favicon-310.png" />
+    <Content Include="assets\favicon\favicon-32.png" />
+    <Content Include="assets\favicon\favicon-57.png" />
+    <Content Include="assets\favicon\favicon-60.png" />
+    <Content Include="assets\favicon\favicon-64.png" />
+    <Content Include="assets\favicon\favicon-70.png" />
+    <Content Include="assets\favicon\favicon-72.png" />
+    <Content Include="assets\favicon\favicon-76.png" />
+    <Content Include="assets\favicon\favicon-96.png" />
+    <Content Include="assets\favicon\favicon.ico" />
+    <Content Include="assets\favicon\faviconit-instructions.txt" />
+    <Content Include="assets\img\adec-bcu2.jpg" />
+    <Content Include="assets\img\icons\button_back.png" />
+    <Content Include="assets\img\icons\button_forward.png" />
+    <Content Include="assets\img\icons\button_next.png" />
+    <Content Include="assets\img\icons\button_next.svg" />
+    <Content Include="assets\img\icons\button_pause.png" />
+    <Content Include="assets\img\icons\button_pause.svg" />
+    <Content Include="assets\img\icons\button_play.png" />
+    <Content Include="assets\img\icons\button_play.svg" />
+    <Content Include="assets\img\icons\button_prev.png" />
+    <Content Include="assets\img\icons\button_prev.svg" />
+    <Content Include="assets\img\icons\headphones-dark.png" />
+    <Content Include="assets\img\icons\headphones-green.png" />
+    <Content Include="assets\img\icons\headphones-light.png" />
+    <Content Include="assets\img\icons\headphones-red.png" />
+    <Content Include="assets\img\icons\headphones.png" />
+    <Content Include="assets\img\icons\menu_icon.png" />
+    <Content Include="assets\img\logo\audio-guide.png" />
+    <Content Include="assets\img\logo\otona-logo-NO.png" />
+    <Content Include="assets\img\logo\otona-white.png" />
+    <Content Include="assets\img\logo\unil-logo.png" />
+    <Content Include="assets\img\meta\og-image.jpg" />
+    <Content Include="assets\img\welcome\example-headphones-icon.gif" />
+    <Content Include="assets\img\welcome\highlight-bento-menu.gif" />
+    <Content Include="assets\img\welcome\highlight-footer-buttons.gif" />
+    <Content Include="assets\js\ajax-loader.gif" />
+    <Content Include="assets\js\effects.js" />
+    <Content Include="assets\js\fonts\slick.svg" />
+    <Content Include="assets\js\jplayer\jquery.jplayer.min.js" />
+    <Content Include="assets\js\jplayer\jquery.jplayer.swf" />
+    <Content Include="assets\js\jquery-1.12.3.min.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\qr\alignpat.js" />
+    <Content Include="assets\js\qr\bitmat.js" />
+    <Content Include="assets\js\qr\bmparser.js" />
+    <Content Include="assets\js\qr\datablock.js" />
+    <Content Include="assets\js\qr\databr.js" />
+    <Content Include="assets\js\qr\datamask.js" />
+    <Content Include="assets\js\qr\decoder.js" />
+    <Content Include="assets\js\qr\detector.js" />
+    <Content Include="assets\js\qr\errorlevel.js" />
+    <Content Include="assets\js\qr\findpat.js" />
+    <Content Include="assets\js\qr\formatinf.js" />
+    <Content Include="assets\js\qr\gf256.js" />
+    <Content Include="assets\js\qr\gf256poly.js" />
+    <Content Include="assets\js\qr\grid.js" />
+    <Content Include="assets\js\qr\qrcode.js" />
+    <Content Include="assets\js\qr\rsdecoder.js" />
+    <Content Include="assets\js\qr\version.js" />
+    <Content Include="assets\js\slick-theme.css" />
+    <Content Include="assets\js\slick.css" />
+    <Content Include="assets\js\slick.min.js" />
+    <Content Include="assets\js\webcam.js" />
+    <Content Include="assets\js\webcam.min.js" />
+    <Content Include="xxxIndex.html" />
+    <Content Include="parcours.html" />
+    <Content Include="Parcours.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_includes\xxxfooter.html" />
+    <Content Include="_includes\xxxhead.html" />
+    <Content Include="_includes\xxxheader-episode.html" />
+    <Content Include="_includes\xxxheader.html" />
+    <Content Include="_includes\xxxheaderParcours.html" />
+    <Content Include="xxx_Layouts\category_index.html" />
+    <Content Include="xxx_Layouts\connected.html" />
+    <Content Include="xxx_Layouts\episode.html" />
+    <Content Include="xxx_Layouts\episodeParcours.html" />
+    <Content Include="xxx_Layouts\howto.html" />
+    <Content Include="xxx_Layouts\masterBlanc.html" />
+    <Content Include="xxx_Layouts\master.html" />
+    <Content Include="xxx_Layouts\master_episode.html" />
+    <Content Include="xxx_Layouts\master_Parcours.html" />
+    <Content Include="xxx_Layouts\master_minimal.html" />
+    <Content Include="xxx_Layouts\master_stand.html" />
+    <Content Include="xxx_Layouts\page.html" />
+    <Content Include="xxx_Layouts\post.html" />
+    <Content Include="xxx_Layouts\QR_Scanner.html" />
+    <Content Include="xxx_Layouts\stand.html" />
+    <Content Include="_masters\TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,9 @@
+﻿Layout		===	zoneIdentite
+
+Nom			===	Chibiabos
+Age		===	69 ans
+Qualite		===	Chef respecté d’une tribu de chasseurs de mouflison. Il fut un fier guerrier, voleur de chevaux couvert de gloire parmi les siens, et avec l’âge et le Conseil des Anciens, il est devenu un personnage estimé de beaucoup de tribus voisines.
+
+Debat  === Entre dans ton personnage et utilise sa pensée et ses expériences pour t’attirer les faveurs du public. Exprime prioritairement ton argument principal puis, si besoin, inspire-toi de l’exposition ainsi que des propositions ci-dessous pour faire pencher la balance de ton côté. N’hésite pas à inventer de nouveaux arguments toi-même !
+
+Argument === <b>Comme notre frère le loup nous habitons cette terre, nous en sommes les hôtes et nous venons réclamer justice pour les meurtres de nos frères.</b> NOUS VOUS DEMANDONS DE CESSER VOS MASSACRES SUR NOS FRÈRES LES LOUPS, ET DE RESPECTER LA TERRE QUI EST CELLE DE NOS ANCÊTRES. 

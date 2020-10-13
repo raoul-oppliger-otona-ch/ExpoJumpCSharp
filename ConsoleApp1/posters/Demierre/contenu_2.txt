@@ -1,0 +1,9 @@
+﻿Layout		===	zoneIdentite
+
+Nom			===	Augusto Demierre
+Age		===	54 ans
+Qualite		===	élève un grand troupeau de brebis (un peu plus de 200 têtes), dans une ferme moderne. Il vient d’investir une grande partie de son patrimoine dans la rénovation de son installation. C’est chez un de ses collègues que l’attaque est arrivée.
+
+Debat  === Entre dans ton personnage et utilise sa pensée et ses expériences pour t’attirer les faveurs du public. Exprime prioritairement ton argument principal puis, si besoin, inspire-toi de l’exposition ainsi que des propositions ci-dessous pour faire pencher la balance de ton côté. N’hésite pas à inventer de nouveaux arguments toi-même !
+
+Argument ===  On ne peut pas rester sans se défendre.

@@ -1,0 +1,9 @@
+﻿Layout		===	zoneIdentite
+
+Nom			===	Billy MacConstruct
+Age		===	68 ans
+Qualite		===	grand propriétaire terrien voisin de la réserve indienne, travailleur acharné, qui emploie des centaines de bergers et espère expulser les Amérindiens de leur territoire pour ouvrir l’exploitation d’une mine qui se trouve sur ses terres.  
+
+Debat  === Entre dans ton personnage et utilise sa pensée et ses expériences pour t’attirer les faveurs du public. Exprime prioritairement ton argument principal puis, si besoin, inspire-toi de l’exposition ainsi que des propositions ci-dessous pour faire pencher la balance de ton côté. N’hésite pas à inventer de nouveaux arguments toi-même !
+
+Argument === Le loup est une <b>bête nuisible</b> et l’Homme est maître et possesseur de la Nature. 

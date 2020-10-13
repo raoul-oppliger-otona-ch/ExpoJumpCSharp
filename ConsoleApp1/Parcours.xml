@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<exposition>
+  <lesParcours>
+    <unParcours id ="1">
+      <nom>Dernier des chena-pan !</nom>
+      <image>/assets/img/parcours/cetaces.jpg</image>
+      <posters>
+        <poster id="Chibiabos"/>
+        <poster id="JohnMuir"/>
+        <poster id="MacConstruct"/>
+        <poster id="Cuenod"/>
+      </posters>
+    </unParcours>
+    <unParcours id ="2">
+      <nom>Battue en valais !</nom>
+      <image>/assets/img/parcours/cetaces.jpg</image>
+      <posters>
+        <poster id="Demierre"/>
+        <poster id="Deshusses"/>
+        <poster id="Villeret"/>
+        <poster id="Bailly"/>
+      </posters>
+    </unParcours>  
+    <unParcours id ="3">
+      <nom>Débat télévisé</nom>
+      <image>/assets/img/parcours/cetaces.jpg</image>
+      <posters>
+        <poster id="Ogi"/>
+        <poster id="Muller"/>
+        <poster id="Salib"/>
+        <poster id="Piazza"/>
+      </posters>
+    </unParcours>
+  </lesParcours>
+
+  <lesPosters>
+    <poster id="1">
+      <qrcode>OTONA-001-015</qrcode>
+      <identifiant>Chibiabos</identifiant>
+      <nom>Chibiabos</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="2">
+      <qrcode>OTONA-002-001</qrcode>
+      <identifiant>JohnMuir</identifiant>
+      <nom>John Muir</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="3">
+      <qrcode>OTONA-002-002</qrcode>
+      <identifiant>MacConstruct</identifiant>
+      <nom>Billy MacConstruct</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="4">
+      <qrcode>OTONA-001-004</qrcode>
+      <identifiant>Cuenod</identifiant>
+      <nom>John Philip Cuenod</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="5">
+      <qrcode>OTONA-001-005</qrcode>
+      <identifiant>Demierre</identifiant>
+      <nom>Augusto Demierre</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="6">
+      <qrcode>OTONA-001-006</qrcode>
+      <identifiant>Deshusses</identifiant>
+      <nom>Manon Deshusses</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="7">
+      <qrcode>OTONA-001-007</qrcode>
+      <identifiant>Villeret</identifiant>
+      <nom>Marie-Claude Villeret</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="8">
+      <qrcode>OTONA-001-008</qrcode>
+      <identifiant>Bailly</identifiant>
+      <nom>Michel Bailly</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="9">
+      <qrcode>OTONA-001-009</qrcode>
+      <identifiant>Muller</identifiant>
+      <nom>Aloys Müller</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="10">
+      <qrcode>OTONA-001-010</qrcode>
+      <identifiant>Salib</identifiant>
+      <nom>Nadirah Maraam Salib</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="11">
+      <qrcode>OTONA-001-011</qrcode>
+      <identifiant>Piazza</identifiant>
+      <nom>Alexandrine Della Piazza</nom>
+      <nomLatin></nomLatin>
+    </poster>
+    <poster id="12">
+      <qrcode>OTONA-001-012</qrcode>
+      <identifiant>Ogi</identifiant>
+      <nom>Walter Oggi</nom>
+      <nomLatin></nomLatin>
+    </poster>
+  </lesPosters>
+
+</exposition>

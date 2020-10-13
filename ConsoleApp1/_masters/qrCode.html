@@ -1,0 +1,38 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="src/debug.js"></script>
+	<script type="text/javascript" src="src/ui.js"></script>
+	<script type="text/javascript" src="src/geom.js"></script>
+	<script type="text/javascript" src="src/constants.js"></script>
+	<script type="text/javascript" src="src/perspective.js"></script>
+	<script type="text/javascript" src="src/nearestsymbol.js"></script>
+	<script type="text/javascript" src="src/patternfinder.js"></script>
+	<script type="text/javascript" src="src/patternverifier.js"></script>
+	<script type="text/javascript" src="src/reedsolomon.js"></script>
+	<script type="text/javascript" src="src/decoder.js"></script>
+	<script type="text/javascript" src="src/qrreader.js"></script>
+	<p>blocHead</p>
+</head>
+<body onload="onLoad()">
+	<p>blocHeader</p>
+	<div id="debug_canvases">
+	</div>
+	<div class="title">
+		QR code scanner
+	</div>
+	<div class="viewfinder_wrapper">
+		<div class="viewfinder">
+			<video id="viewfinder" onclick="takeSnapshot()">
+				Viewfinder does not work.
+			</video>
+		</div>
+		<div class="result" id="result">
+			Press space to scan...
+			<script></script>
+		</div>
+	</div>
+
+</body>
+</html>

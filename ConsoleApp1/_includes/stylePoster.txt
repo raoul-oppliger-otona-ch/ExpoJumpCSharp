@@ -1,0 +1,6 @@
+﻿<style type="text/css">
+	.identite {
+		display: flex;
+		align-items: stretch;
+	}
+</style>

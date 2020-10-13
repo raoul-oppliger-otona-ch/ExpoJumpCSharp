@@ -1,0 +1,9 @@
+﻿Layout		===	zoneIdentite
+
+Nom			===	John Muir
+Age		===	44 ans
+Qualite		===	Trappeur, amoureux des grands espaces ayant construit sa propre maison de rondins où il vit en harmonie avec la nature. (Cf. Archibald Belaney dit Grey Owl)
+
+Debat  === Entre dans ton personnage et utilise sa pensée et ses expériences pour t’attirer les faveurs du public. Exprime prioritairement ton argument principal puis, si besoin, inspire-toi de l’exposition ainsi que des propositions ci-dessous pour faire pencher la balance de ton côté. N’hésite pas à inventer de nouveaux arguments toi-même !
+
+Argument === Nous vivons en équilibre avec la Nature et nous devons <b>respecter</b> cette harmonie.

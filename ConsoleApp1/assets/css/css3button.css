@@ -1,0 +1,24 @@
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#fff3db),
+		color-stop(0.25, #ffc821),
+		to(#ff3c00));
+	background: linear-gradient(
+		top,
+		#fff3db 0%,
+		#ffc821 25%,
+		#ff3c00);
+	border-radius: 6px;
+	border: 1px solid #b85f00;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px -1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}

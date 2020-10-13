@@ -1,0 +1,30 @@
+﻿
+                XmlDocument lesParcours = new XmlDocument();
+                lesParcours.Load((mesParcours));
+                XmlNodeList nodes = lesParcours.SelectNodes("lesParcours/unParcours");
+
+                String oneItem = "";
+                // On regarde les différents parcours
+                foreach (XmlNode node in nodes)
+                {
+                    // Console.WriteLine(node.GetAttribute("TableName")));
+
+                    //On crée un répertoire par parcours
+                    oneItem = oneItem + " <li>" + node.InnerText + "<a class=\"post-link\" href=\"/p/" + node.Attributes[0].Value + "/\" style=\"background-image: url('/assets/img/icons/headphones-dark.png');\"><span class=\"post-item\">1</span></a> </li>";
+                    destinationFile = @"C:\Users\raoul\source\repos\xxx\xxx\site\visite\p" + node.Attributes[0].Value;
+                    Directory.CreateDirectory(destinationFile);
+                    destinationFile = @"C:\Users\raoul\source\repos\xxx\xxx\site\visite\p" + node.Attributes[0].Value + "\\index.html";
+                    System.IO.File.WriteAllText(destinationFile, contenu.ToString());
+
+                    // Dans chaque parcours, on crée un répertoire par poster
+                    XmlNodeList posters = node.SelectNodes("posters/poster");
+                    foreach (XmlNode poster in posters)
+                    {
+                        destinationFile = @"C:\Users\raoul\source\repos\xxx\xxx\site\visite\p" + node.Attributes[0].Value + "\\" + poster.Attributes[0].Value;
+                        Directory.CreateDirectory(destinationFile);
+                        destinationFile = @"C:\Users\raoul\source\repos\xxx\xxx\site\visite\p" + node.Attributes[0].Value + "\\" + poster.Attributes[0].Value + "\\index.html";
+                        System.IO.File.WriteAllText(destinationFile, contenu.ToString());
+
+                    }
+
+                }

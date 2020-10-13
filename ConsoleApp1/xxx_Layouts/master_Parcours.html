@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+<body>
+
+    {% include headerParcours.html %}
+    <div class="slide-menu">
+
+        <ul class="post-list">
+            {{listeParcours}}
+        </ul>
+    </div>
+
+    <div class="page-content">
+        <div class="wrapper">
+            {{ ddddddcontent }}
+        </div>
+    </div>
+
+    <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+        <div class="jp-gui jp-interface audio-footer-container" data-role="footer" data-position="fixed" data-tap-toggle="false">
+            <div class="audio-player">
+
+                <div class="player-now-playing">
+                    <p>
+                        {{ page.title }}
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

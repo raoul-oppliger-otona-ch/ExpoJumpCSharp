@@ -1,0 +1,19 @@
+﻿
+<div class="home">
+
+    {{mesParcours}}
+
+
+
+    <!--
+    Afficher une liste des parcours ou des stops
+    -->
+    </br>
+    Une liste des animaux de cette e-exhibition
+    </br>
+
+    {% assign pages = site.pages | sort: 'page_rank' %}
+    {% for my_page in pages %}{% if (my_page.section_title != null) and my_page.type == 'parcours' %}
+    N°  {{ my_page.parcours_id | append: " - "}} {{ my_page.title | append: "</br>"}}
+    {% endif %}{% endfor %}
+

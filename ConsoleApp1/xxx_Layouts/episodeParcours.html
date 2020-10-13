@@ -1,0 +1,54 @@
+﻿---
+layout: master_episodeParcours
+---
+
+<article class="post">
+    <p>Head2</p>
+    {% capture head2 %}
+    I am the head2
+    {% endcapture %}
+    <p>Head2 fin</p>
+    <header class="post-header">
+        <div class="post-title-episode">
+            <div class="post-header-stop-id" style="background-image: url('{{site.baseurl}}{{ site.headphones_icon_light }}');"><span>{{ page.stop_id }}</span></div>
+
+
+            Parcours_id : {{ page.parcoursStops }}
+            {% assign listeStops = page.parcoursStops | split: "/" %}
+
+
+            <ul class="post-list">
+                {% for numStops in listeStops %}
+
+                <li>
+                    <a class="post-link" href="{{site.baseurl}}/stops/{{numStops}}" style="background-image: url('{{ site.baseurl }}{{ site.headphones_icon_color }}');">
+                        <span class="post-item">{{ numStops }}</span>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+
+
+
+        </div>
+    </header>
+    {% if page.hero_images != null %}
+    <div class="slick-container post-hero-image-container">
+        <div class="slick-post-hero-image">
+            {% for hero in page.hero_images %}
+            <div class="post-hero-image">
+                <img src="{{site.baseurl}}{{ site.episode_hero_path }}{{hero.path}}" alt="{{hero.alt_text}}" />
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+</article>
+
+
+
+

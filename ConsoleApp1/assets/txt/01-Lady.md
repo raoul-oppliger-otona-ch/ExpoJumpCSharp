@@ -1,0 +1,3 @@
+Ce fauteuil a été dessiné par Marco Zanuso pour Arflex en 1951
+Alors icône de la modernité, il a été présenté à la IXème Triennale de Milan en 1951 où il gagna la médaille d’or.
+Il est le fruit d’une importante innovation technico/matérique (le caoutchouc mousse et la suspension avec Nastrocord) qui, en renversant le système traditionnel de travail des éléments rembourrés, prévoyait une réalisation séparée des pièces et ensuite leur assemblage.

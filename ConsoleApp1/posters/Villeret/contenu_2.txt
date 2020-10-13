@@ -1,0 +1,9 @@
+﻿Layout		===	zoneIdentite
+
+Nom			===	Marie-Claude Villeret
+Age		===	38 ans
+Qualite		===	Plutôt modérée dans ses opinions et fille d’éleveur ovin, le loup lui inspire une sourde terreur. Son élection repose sur le soutien des gros éleveurs. </p>
+
+Debat  === Entre dans ton personnage et utilise sa pensée et ses expériences pour t’attirer les faveurs du public. Exprime prioritairement ton argument principal puis, si besoin, inspire-toi de l’exposition ainsi que des propositions ci-dessous pour faire pencher la balance de ton côté. N’hésite pas à inventer de nouveaux arguments toi-même !
+
+Argument === les gens passent en premier, les loups après.

@@ -1,0 +1,9 @@
+﻿Layout		===	zoneIdentite
+
+Nom			===	Michel Bailly
+Age		===	42 ans
+Qualite		===	néo-rural, diplômé universitaire, est revenu à la vie agricole il y a 10 ans. Il pratique différentes cultures et élevages, dont un petit troupeau de brebis. 
+
+Debat  === Entre dans ton personnage et utilise sa pensée et ses expériences pour t’attirer les faveurs du public. Exprime prioritairement ton argument principal puis, si besoin, inspire-toi de l’exposition ainsi que des propositions ci-dessous pour faire pencher la balance de ton côté. N’hésite pas à inventer de nouveaux arguments toi-même !
+
+Argument === chacun a le droit de vivre y compris les animaux.
